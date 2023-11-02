@@ -173,16 +173,35 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 
 ## STM 32 CUBE PROGRAM :
-
-
-
-
+```
+DEVELOPED BY: SRI SAI PRIYA.S
+REGISTER NO: 212222240103
+#include "main.h"
+#include "Lcd.h"
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+int main(void)
+{
+ HAL_Init();
+ SystemClock_Config();
+ MX_GPIO_Init();
+  Lcd_PortType ports[]= {GPIOA,GPIOA,GPIOA,GPIOA};
+  Lcd_PinType pin[]= {GPIO_PIN_3,GPIO_PIN_2,GPIO_PIN_1,GPIO_PIN_0};
+  Lcd_HandleTypeDef lcd;
+  lcd = Lcd_create(ports,pin,GPIOB,GPIO_PIN_0,GPIOB,GPIO_PIN_1,LCD_4_BIT_MODE);
+  Lcd_cursor(&lcd,0,1);
+  Lcd_string(&lcd,"212222240103");
+  Lcd_cursor(&lcd,1,1);
+  Lcd_string(&lcd,"sri sai priya");
+}
+```
 ## Output screen shots of proteus  :
- 
- 
+
+ ![WhatsApp Image 2023-11-02 at 19 51 18_173d27ef](https://github.com/SriSaiPriyaSenthilvel/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119475702/2721a842-7b28-491e-b208-a20783a26eb9)
+
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
- 
+ ![image](https://github.com/SriSaiPriyaSenthilvel/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119475702/08ca5d94-677c-4db2-acca-d2ebdb969f65)
+
 ## Result :
 Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
-
