@@ -72,7 +72,6 @@ C1
 Jump to second line, position 1
 C2
 Jump to second line, position 2
- 
 ## Procedure:
  1. click on STM 32 CUBE IDE, the following screen will appear 
  ![image](https://user-images.githubusercontent.com/36288975/226189166-ac10578c-c059-40e7-8b80-9f84f64bf088.png)
@@ -108,10 +107,8 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 16. click on debug and simulate using simulation as shown below 
 ![image](https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png)
-
 ## CIRCUIT DIAGRAM 
 ![image](https://user-images.githubusercontent.com/36288975/233857974-bda6200e-4f88-4e7b-b189-4da80210fa23.png)
-
 ## STM 32 CUBE PROGRAM :
 ```
 DEVELOPED BY: SRI SAI PRIYA.S
@@ -136,12 +133,8 @@ int main(void)
 }
 ```
 ## Output screen shots of proteus  :
-
  ![WhatsApp Image 2023-11-02 at 19 51 18_173d27ef](https://github.com/SriSaiPriyaSenthilvel/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119475702/2721a842-7b28-491e-b208-a20783a26eb9)
-
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
  ![image](https://github.com/SriSaiPriyaSenthilvel/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119475702/08ca5d94-677c-4db2-acca-d2ebdb969f65)
-
 ## Result :
 Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
