@@ -12,11 +12,9 @@ interfaces Datasheet - production data Features
 25 DMIPS/MHz (Dhrystone 2.
 1), and DSP instructions
 • Memories – Up to 256 Kbytes of Flash memory – Up to 64 Kbytes of SRAM
-
    ## LCD 16X2 
    16×2 LCD is named so because; it has 16 Columns and 2 Rows. There are a lot of combinations available like,
    8×1, 8×2, 10×2, 16×1, etc. But the most used one is the 16*2 LCD, hence we are using it here.
-
 All the above mentioned LCD display will have 16 Pins and the programming approach is also the same and hence the choice is left to you. 
 Below is the Pinout and Pin Description of 16x2 LCD Module:
 
